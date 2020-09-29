@@ -6,65 +6,78 @@
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My page</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <header>
             <nav>
-                <h1>CHALLENGE</h1>
+                <h1>Market list CHALLENGE</h1>
             </nav>
         </header>
         <main>
-            <section>
-                <article>
-                    <h2>Market list:</h2>
-                </article>
-            </section>
             <ul>
-                <li>Fruits</li>
+                <li class="food_group">Fruits</li>
                 <ol>
-                    <li><a href="https://www.bbcgoodfood.com/recipes/collection/pomegranate-recipes">Pomegranates</a> </li>
-                    <figure>
-                        <img width="350" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSExMWFRUXGBgaFRgYGBgbHhgeGxoaGB4aGRkYHygiGB0lHhoYITEhJSkrLi4uGiAzODMsNygtLisBCgoKDg0OGxAQGy8lICYtLS8tLy4tLS0tNy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMABBgMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUCAwYHAf/EAD0QAAEEAAQDBwIEBQIFBQAAAAEAAgMRBBIhMQVBUQYTImFxgZEyoSNCscEHFNHh8FJiFjNygpIVF0Oi0v/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAyEQACAgEDAgMHAwUBAQEAAAAAAQIDEQQSITFBEyJRBWFxgZGh8DKxwRQjQtHh8VIV/9oADAMBAAIRAxEAPwD3FAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAaP5uPvO6zDvKzZb1ra65BRlZwW2vG7sb1JUIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgNGPxPdxPkIvI1zq60CVDeFktCO6Sj6nP8AZztdHMw96Wsexpc47AhupI6EDcf4MKr1Lh8M7dVonU8w5THYTECaObEUc0srjmNWQAKHUAbUVanlORnq1tah6L8+p062OQIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAICm4/j54zG2FsYzWZJJXUxjRXmCXG9K6FUm2uhtTCEs7s/Lqef9oe2ks0cmGLQ039cZOUgOqtzma4dD8rnlc2mj06dFFTjJZ+ZyTXOA8Z02G3wR+65kelZBpcHV/wu7S91IcPJpHKRkJ/K/aj5O0HqB1XZU9vB5+t0c5w8Vctdfh/w9bXQeIEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEBR/8NxPmkmxAExcfAHC2saAAAGnQm7N+apsTeWbrUSjFRhwecdp+zn8nMWgkxPBMZP3aTzI016ELjur2vg+j9n2x1VfP6l1/wBlK6En9lQ9Xw0jHCcOJdppruVZvI8seT1bh+PlyND3lxA3/qumM3jk+Yu09e57Vg3ycTcPzH5TxCi0sX2Ic3HZG7O/RVdrN4aGt9UZ4XtZrUgHqFMbvUrb7K4zA6TB4xkjczDa3TT6Hk2VSreJI3qTMIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgNc0waLKZLRi5PCOJ7bvMzG7Uwkj4XNf5ke97Kj4U37zlMMzTVtHzXLtR7s/iSYMNZv4VjOdiisF3hHkDVXT4POsSb4GIxApNwrreSmxGOF0qNnfCnjJV4vHAbC0zk666W+pK4H2mMTwLy/oVeE3FnJrPZ6ti3jJ6pwnijZmgjel2RkmfIajTyqlhlgrHOEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAQeJ8TZCNdXHYLOyxQXJ0UaeVz46HPYvid+J59v2WDsb5Z6demx5YIp8ViO8NDZZylk9Cqvw1lnz+XFKhbe8mLI6TOCXLInnoJkmFfJVYjFFQ1k64VrBVyyg39lGTqjHBAfLvanHdG/BTYx9n9FdG0Dr+wPaFzHiN7tD9J6HktK5YeDxPa2jUo74o9nws2dod8joV1p5PjJx2vBtUlAgCA0YzFsiaXyODWjmf0HU+ShtLqXhCU3tissqndq8LsJLNXVEUD1v8AQWfJV8SJ1LQX94lPxD+I2HidkLHk6a6Vr15gedKjuR2Vexbp4y0smOE/iCyQEtiJAB2dV+hIRXZ7C32PKvrI6rhPEmYiJssd0dwRRaRuCOq1Tysnl3VSqm4SJikyCAIAgCAIAgCAIAgCAICLxLGthjMjjQCpOahHLNqKZXTUInnmM4qZC6VxoLz97k9zPp6tKq0q49Sj/n3Pdd6chyH91DeT0lp1COC3wrTvsERx2YJDrUmawfGeqCRDxr0SN61kocdiOQVsHdXEr8xbqU6mjkaJ5LUpFclbMzmSpRtGZqExaQQdRsheSUo4Z7f/AA64738LbPiFNd7bH409guquWUfD+1NN4djwdotTyDTiMSxn1uDfU0obSLxhKf6Vk+/zLLAztsiwLGo6jqpyRtl6HB9uuIMdICZWiNgoEEEBxzZr+B8LmufPuPf9l1qMH5fM/d27HGYtodLcTiJZBrmNhraGrhXhA006lZ4TPUUpwh5kml+fMzdI+FgAOdxNB30WTuTvpubVk8dDBxVkvMv5Pvc9zhyRIS7xHMeZd5Hl7qvDNE5Oa4/ESOwfbZ2Hc3DubmjfIM3VmfK0FvlsSD5rSuePKzm9p6BWxd0Xyl+3qe0LpPlggCAIAgCAIAgCAIAgCA4nt3ibc2Mnwt1rqVwauXKifQex68Rc11Z59jXPeQ1o0v2XHu9T6imMIcvqbuD4bxa8gCf6LVcldTZhcHSsk02VmjyXHk+Onvkp6BQx3Ixn3VjXaRMbOA2z0RmlccvBybcWXEk6aqT0Jx2h8toY5NQKkjJpnVkQmVkh1Us2UsnY/wAOOJugkLnaRE0T570OpuleDPI9qQjOOP8AI7HtD22m17qQR9PBm5cyefsrSt5wjz9J7KT81kW1+fnU4KfiWLxRNgyNvxPAOh/1Fw5c1k25HuQpp0uMtfDj7IkgOY1sLpnFp8TnMBsDQBhJ0be9nYDZVSfdmU7YybnGCz6P9yPiJJO9ZECQxlZc1eEggAmh4ieWnXRTx2IeXHzLl+n7e438YxbBiGOdMHNaC0tboS7o4nlY3O1KW+MmdNTitqjjPr6epG41jo5G7tr8tXfnVm/ZQsSWDbZKmW5PlFVwxufwuc9t6MaL8Tug03UbVE3tvlY+Me/4Fth+xmLDxKTHDRBYZX0SQbByZXONdCApclxg86ergm4fqT646fwjpsH2gxmFkhdLjGytupWuL/EC47ZmjKaIrbZaxlLucdun01sJeHBp9n+M9XwOOjmbmjdmHuCPUHULoPn5RcXhklCoQBAEAQBAEAQBAEB5Z2nxGed5vQEj7rx9RPdNn2Xs6vZTFFJsdOixis9T0lyuSXw8U2+a6IGF782CWyWrV8GLiA5SRgj4p4abUF4LJWcSeMmhU9TWtNS5OWEoa4eleqsjts6cmZxTeR2U4OZojz4mjoVKRODJ2JBBREbXkjYHCOmkDG0CdydgOZKPkSltRYGUAugjP/yDIXX4gB4bA66n3V1k5W4pbpLOSYJpjlnkDQ13LMPTb9lWUGb06ylLw/4I7MfLT2RF2TMTpmqjy00TzYEo0O1OeOUW3ZvHuaDHI+2MotDqrxXve9VoFMZdcnPrtPFtOC5ff4GM8v8AM4jRxY5lkEDM516aWdB7dFOcmDg6IrC6/Qi8H4Y0YhwxXIWzM3R93rroa/dSkksE3amdqW37djRi5IYcWHQnw0b1pt7e4GhpVfC8patb01f2JvAnl0wxEjy8RG2kj6n6hoaD01PqOgKry1tMdbOv9NawjXiO07ziX52k5hQ1Pg3r/qGylRcE33K6emFmFngrXSSMkZI8OGV4J8xetKFJtZZ6dlME5Qr6NFzguKTBwmic5r2m8wJ112PVpHLzKKbTJt0NMq9rXUs+N/xDxEk7zG90cendhp2rmT+YHzV52yzwcOl9j0qlb1mXf89x3fYztxHiIomzuDZ32AapryHECujj067dFvCxSR4ev9mzpnJwWYo7NaHlBAEAQBAEAQBAeQcYf+K8f7j+q8O39bPutIv7UX7iC3V1cvhIdTpfEck/YUOVLdJI5+rPkZUtkS4McxGvx5qyi2uhSU4LhshY5xeKHuqM3qxHkp8QHu8LQSpjlm0pRisyeCixkD2uyluvkb09lthoK6E45T/ghkkHoUQbTMXEqWU3cYMc6jA34LThTssWIlF2G5B/3aX9wpRjOW7oaP8A1P8A5T6pzPCT1FUPsrbTNNYS95Z8Pn71scOZtjNXnr+um6pLJvVtg5PHXk+41j4K/KCdaPspi2TdGuzkw4Xw0y53h/hseduAvXXYX91PXqc8r/CkowWf9EzgmKhZne8nvg4tGW9Bvp5eqjhdS1kbdRhQ4j7yNJHLiwW6ulaTXQc/RopQs5NrPDrp3JYf8mmLs7iHN+jvJGuy5HENDOZcS4gEVsBY567KzeHg8e26TZfSYUxSiLTIzDMcNRq5xOY2OZLa8g0AaKu5LoNPFN5l6nI8RzmUOaC41eg10rXTZaJNrBv4tcLG30LGEvxcZeXAd3YIroLs66KmxJGkNS4SxBZ+JL7Ol8gdDoGj6jz1/wAOqbDW/U8JrqQ5OHl8/dWG5aA3OmuoHt15hNmWTHV7K8yXJaYXgeKfTY2OkjHha5lAA5jZq7BDuao1t6Ex19O2Ss4b55+B75HN4RZtwAv1XXK1JcHxWzn3H3C4pr7rcbq1c1NZQsqlDGTermYQBAEAQBAeQ8fbkxL2nk51fK8W2OLJI+50L3aeLXoiFLEdCBV8zQ+/NWrrlLojbx64ZUn8up8hxbXEta/MR9Qb+X1Pn5WtlU+5hK7/AOY/XgxfjG08hzWtaCNQ5xzbDTYjfTmtlGKOecrJvGG37uCHgJrwhZG5zpszg489dbs7XYKrLc3hG9bpjNSn+k08HhcYe6Dw2YZqBog+LW3NJOgPT4Tws8szlqvPiMcr1/4RZZ5InAOcxzmk2Q0AOFDS6vT/ADmrx2roRKmclmecP1/O5F4VI52IfO36aOYE8zy2PRS8sifh1xVcs/A3Ox7Z5Q2aMDu2vO9gmgdfKgSozhciFKfNT4f59Tn8bQcQ29LKZTN9s6352QZHqUik7Dtux+DZJFkfeV7XZq31G46kafCpY8Iq5tV7l1OLgly357it7/wLQo2XE0bHyNELgKY0WNLIGp9f6Kj68o3pUo1bnL5MYXH3mEtl4NA8gNiob2rJeuvxp7X0XYkYLAyl7o435WkAuI96266/CnO5clbHGmeYrJrZhvxywu5HUDcgbUbUNF43SfRYfvN4xphL2sH11TjuPRUfTKOmNb3pWrOCUzic8GjCLfRNjNqOZs9CBatDEnhnH7TrjKClFdH9v/Tp+FzMx2DdIxtYmEEOaD1F15tJBIPLXzUOHJ4islXNZ6M4fgWMGR/h/FvVzjpz1/stZSa6HfVRCcm5vgrosU+Jz3AEsfo4jYnn66n7q0o5KVWKC29y5nwk0DBO2Qgu0cBtsT/hUYXQmM3J5a4PnBuHYud3fwsJoGwDRI5kE6ee+taKNvBezU1RaUj0zs/h24KKNksrS5urg3Xc3v0F1Z3WWOTz9RZLUTcoovuBcYbO4mM2w2Drq0tO3npf2WCbUtpzXVbY89UWnB3fjSjlTT8X/Vdum6GWqX9qD+JcrpOAIAgCAIAgPM/4gYN0eI7wDR4BHqNF5upjts3dmfW+xblOhw7ooIo8srHPPgyuBJ5HQ36lW3Hc4w2eVclJhnUZcQ1pFuygWPpvctqxyr3WsY+plbcpS2xa493c0YWUfy5c8nKXnYC7uhqbuvII4rPLKQvtcsVxXHqfMDjwcO5gcA/PW9WDrfqVWWc7UdFHhp+NNcfz6GTIXYYmUkZ3MoNAsAHq41XspaT4yUUpcyUeM55MeGhj5GS4kVF+UEHU8r8tBqqqDQ1Wqc44guf2K2TiwiklEALGOoePV2ml67X0UtSFW2XmseWV+GdJJLQPidY10GxJ9qBV2srBk7o1SbQ70NLwT46r53N+mnuoScTSVkL+H88lZLornFZ5eD0DsJiQ1kbjtRv2Js/CwuNF5qcFbxPA4aYTSQsMYL80YJd9JNWBsATrXmtI8LkV1WNqL5+BWcM4NM9zshALCPe9fhWIst2PDOgwXZFkuDkxLZanj7zvGDxAlpJHm2211WcvQp/WSpsw117nPyTPhPglJsAP5VWnU6a7q2OMI667G5qc0SjG97WvZy0zXuaOg9tyqYwjodu+zKR8jxQe/K8NFCgK0Jutfa0LOLbzkz4lCY/EHUNNAOfT0UJ44RSShbJbuxZ/wx4oyLH0TUcrcrugdfhs7amwPVaY4PG9opS5iTP4l9k2QXiYNGOPjA5ONn4KsmjHSWTkms8nARY2ojGRubVscnYpx2YfUv8AAQYzEwgAWwWA4ka3egA18lXHOSvjRisI6PgeJlwsHczOcHnaNoFho5Ej9VV8spOKeJYNnBeLtkkmhlaWvmc0R89CWho6/CiSeODWK8PE+yyek9n+zrMIw624klx5X5ewAWEo85fY8q/Uu6TwsJllwU3LKejW37kmvsurTrgz1fFUV8fsXa6TzwgCAIAgCApeLwtmqwLjcHMJ2sa63y0XLe1Lg79PKVXTusM8X4rLO+XEFmbMXEMjaXZWjMbNHrWhPJypGXOEj6VVVxphKx/P5dP9kPhMbe7fE+wbzS6UW1s2zvdE/PVWxy2y7m1tVaTb+howuHidK2Nri5hslruR09FZbZcmFrvpTi+G/QyxkH48bSWMObw0Bp0G3rveqPGMsrBuHEU/n+5K4jE2bENizOs/W681Aa5a2/papFR6o1lZdGOHh+ixj5krjBFxQst2virUtB5k8gpwnyildk6k1JLlcfncgY3h8IBAa0vdoN3H7lTu56BVvw9zkQTwaTDASPcwOeaABstHrt5WklkpTJvLcW0u5TOY0TAyVlBIdRButa067WrJEWyc5blwMLw2XEF2QWGgkkkAD0/spRnalDv1PXOw2Fw2DwzZA8yTmOwDVNzgOIoaCtrs/elzzcucL4HHNTsxW+I55OfxL2uZLOXNzPcMwFeAAk5aHM3enVZvK6n02lUYuMILhLr7/wDhScK4n3ZkDQA5wGUnTrv7HRX3vBL0kZzTfbqWPZuYxSynMMr4y1wJ8LnOc0Zb2JouPXfqpjycntSuMsbV+ev7GTOykjw4Yai06OdK78wGwIGu45V5rRtI892NJKf2ORjdJA90bwWuaSHNv8w0INcwd1DSfJ3U3Zjhdyyw2LY+Lui0Ak2T1PXrd/qs2+x2UVZlvb+Rv4vw6QwRkXo4h2vXYkH03/qq15Um2cOpntsaj0fQ5loAJrz1J3XSnk53FJcrLPSey2NE+AyTyWWOc0l1mxy1/NoQFWS5PNcZRn5UVHDOxsb5p7eBhx9JshzgQHBoBGlHSz0V0+BOTWFJclxg8MYBI2HwNIBFC8tULHQkbnqq8nRGUWuSqw8/cYsySh0jHNb515H/AE3+6q+Ubrzxe3qXPZ6eLEcUbI2NtgW1pF0BzFaClDbSMLm407Wz1PiGKysJ8v2WbbfB5tFW6Rs7MM/CMhFGRxd7fSPkC/ddtUcRK6+S8XYv8Vj59/8ARbrQ4QgCAIAgPjjWqhvCywlk5DtTxSUd3BA25J3ODXC7DQLc7yOoFna75LjUt2Wenpqo53TfC6nl/GM+E4g9kkhPgFdDmAPvRsD0U7me9p41XVqSXBRsmldJK8NLgR4yPI/00UvlHQttdi28YfB84diWmfM05TWnxR9evyqr9ODW1qVik+V3NkWK/HkcWh5b9N6gOJAsenJFLahKjx5pLhIl8GdPJO+Vrg3QB1ganloK+fNWxuRx2bdPLbhy9Pzk14Nrmunzm3Bw0vQ1ZJ9Tao8x4R11qvUSU5dCC7Fs75hvwtdZ3Utvb7yFTHxH6GztNj2SOJY62nfyrSgFWCeeTSdijVsOfkhLgaG40866dVsmebfJbWWvZxsvdSujIy5CH3fr4a5qs89iaNklDf6l5w7Gula5lhnhAaQeWnySs3JtHox00IWJvlFdj2vZYGubevLnpyTG4vZZGEm1+MqI5iHFrt+Xx+ymUFjKM6dTLftl17HRTPLsPGyvDRs+aqmzaFVcXKcups4Tx18MDo3a0fAOuYfUTzFAD4VmzjWlhbPP1MeCxsLpMS+Nr8rbAdtm3Jra6rVSpk3aWO+MU8N/sa8bKRI2bK0EEGmgAb+W6o3k64URitnZruT8bjahfI+i2UVl3I6VfTdRjkzuhBx8Pujm8Y9rgTGDo0aabChZpbLk5H/Z6Mm8EaYRHK+iGuJsOvLdHUDpWqTz2OSOVF8cHZfyuKfI8vZTYwcwcaJvxCsu/UHbxKsXjqc1mycEo9WfW8VbIHhpMUjWgVpQHmT9XwkpNMmGlWzd1Odi4/GGOjI8Zd4jX1V+v90aln3Grht6dj1bsXwyLD4VpaBbvETVXm1rrQutVk5YWTyr5yssMOIvOIlbC2wL8R6jY/OyvRFy5Z21Y01TtfXsdpFGGtDRsAAPZd54Em28szQgIAgCAICm4lxkNcY2gGtHG9vQc+i5brusUd+n0jkt7I8UlmwfF+3ouNWc4NZR2rD6FR2q7NR4yP8AEHjZeVwGuvI8yPK1tGTXVZL03yqfleDxrAh8Xe4d4yPzAOsa6cteR391aUkfSUOMlv6mPC8BG+SUPP07Ua6q6xgztlNtOJ94Xg3PfI2IggD8w3HtsqyibQ1EoPDXPuNuFmfE+SEayP2LD9r5Vqji+DNWweZSX1IWKgdCSZHamvpN15HqdlaUc9DON+3OYvDK7GYppcMopoHz6kKVHgzWow/MdB2W4WzHyiAExMZG973DxVVAb9SR8qkm48md+qUYeVdS0d/D6eKcPjeySNj7bm8DiNDyseW/LzUOxOLRxO7cluXJBxMv8uHtLS11uB0NE2djtXNRHL5Pcj4bgtrXb5GTeHxjDMeDUrhYyk3qefkArcZK1zulJtPj7FRhpHOLmucbsWb1oXpfTW0xjoXi4SmpWLgk8OgYJHBwDhku99b0H67qzfHJz7N08QeOfsZ4Qhs9PFMokNvQH026qMLrgtKU2nDd3698GOPZ30zXVlBI/wDEbk+gs2UTbXJecYVNKvl/nBY4Zv4jYoicshyuB1u9LG1aKjSxwaeJKD33L4YJ/FYhh5mxvh8Lm3ZJLjsRoNW17fZUedpx3ayU1uhI19pOGxvZG9hLd6br0s7+yrGXcjTaicpPec7h4WtJB0PmdVpGTZ6LjCMdz5LDg3CxNMQTUQaXS+gIFD/c7Yf2WjeDzL7nGLUe74J3Eu3szsU+4ms1yNa0HYaAuv6iRz00UODayzn09cVDw1nJC7QcInYWzOd9ZFsbd9eW5PRSmnwW8VxWOx3HAexcUwD543xsZlLWOAFkanNzrQdLtZubSeehw3XJPyPLZ0/F+JBvhaCT9IrrWg9f0WME7JZLabT580un5+e8sey3DstyO3PPqf6DZelCOEcWu1HiPauiOhWh54QBAEAQBAVHHODNmGYCnj7+RWNtKnz3OrT6mVT68HKiV0btboaEbfbkuOVfqewpxsjz9SfgeLNdbc1+tfBWeGujMrdNhbkaOLcOimc1z443uurIFgeR3PLRVluK1ynWuMo5fj3YEPkEuFLY7oPYbDfUUDXmFaNjijro9oOC2zKHEdlMThH5hb2PGpja9wBvY0L9yAFZXKR3afXVPO7r7ykfh3xzCUAsbdFzgW671qFp4i6F421zlmXJqx0PfPyx3LK46MZ4iSefkB1KiLxyX1Wqg0orojt//bONsTDLiCx5aM+UMpumosiz6/ZVlc0ePLWSsbSXBaYHAYfBQuhwrSGmjJI4299DSzoAB0FDdYWXSm8FaqW2nMp+P8Wc2EuaXbt1sjQuo191rXp2vNI664xlLacVxbFSzElzi5osgDUNHLTkuhNt8noKuqutRSwzfw/BydwZMwrkKv8AMBqfdTwYeJOUtkV9yJhYmOMme3SAih1B3/zyUvj3lknOW1vav5I7sQYZTW3RTjKKN7X1z7y1xmGj7kSE5pHVrdAacq2ATvgyi5vLTwMJgJoo3SuDaLbNkh2UddOY5WoaLxvi2s9voXHZ+J0Pd4t1EM8TWbk3oLNjqskdGpfj5qj1I8LnzzPk/O+V2hP0hzs1XzoED2VLH2Z5t9bqxDskXvaDDvGGcMuctAOnLXkPRVj6FNPPE8nCxRRlweHE6XR68gtk5JnsR8KcMTOh7FQPdP3bRTZY3NcNtR4mn2IPyVMm8YZ52v8ABWHX2McH2axOI4kXd3kja7xk/lDPDz5mvupcltwccNQ6vMj1bC9nIQ5sklvczVubYHqGjS1mkonJZqJS4Rjxfih+lnhbdWRuRqco5/pv5LFt2Sx2OnTaZdZcsw4FwkyPzu2G3kDr7uPMrvpq2ojWapRjsj+f89Ds2MAAAFAbLoPEbzyzJCAgCAIAgCAICn49wdkzS6wx/J2wPkVnOtSOrTamVbx1R5hxfCTYeQh7S3oeo6g81xTqknyfQ0XV2rys1QcYePzH15/ff0VFE6fDi1yjpuHccDh4jsNPM+Y5exWbr54OG3SL/EucNxeMtBLhd8+Sna+5yT0k1LCR9lxER8LshB5EDX53VclFVP3kXvY47yNaz/paG/Gir3NI1Slwyox3FYx4nEXyJNk9K3UKts7a9PPp2Od4nxRskUmpaygCRoSXa0LBrSvlb1wjHlnZDTy3pQWTmcRjZcR+CAPDmOmgP+4/P3XQjaUYVRy+5YYPHMjgMeWpGtotPWt75g72mX2MI1RnLdLv3KBmKkY1zWgujskDlv8AeirbUy+5Rlx1IHcTPHeAHXQEUB/dXMHlyeC0nmw3dCNrDmu3lw8Q06jqq85L1wzFuT57ERuGywskt1l5IF21oGxIrmQpyuhltly+33Ld+InxcYDWaNvNWgJ5a8/RU5ydUFXCGCwZitG4ctolo5ggV++io0zSnbHMl2+pYYDh3d6jU3uOp1XPZLL47Hl6q7fMsO0D5Bh3vhaXEingE2ANyBzUwabOWv8AViR5xDA1xBFVR3P6roy0ezBUuPLZ238MME5uKe9n/LDKJPWxVX7qJyTPK1ji1hHqcmJrbUrNzRwRqyVOO4tu0uBO2UfueQVUpSZ31aX/ACxx6sx4JwmSc532G9f2F/quyqrHJTWayFa2QO1ghaxoa0UAuk8KUnJ5ZsQqEAQBAc5xDthAyV0DAZXs+vLoG+Vncjp5rOVsU8Hp0eyrra1a+IvpnuS4+0kBgOIJIaHZC3TNn/0ADclSprGTCehtjb4WOevy9SFH21w2cMeHx3zcNB6kHRQrYnQ/ZGo27o4f7lzxLHCKF0v1AAEVrd0Bt6q0pYWTiopdtqr6ZPBe0/FH4mSYzOe4EDumHNo4EfS3ZvP55rkctz5Ps69FGiCUF8X7vj3L/Cdo5oeHshxGFdPksZnOqm3oLokEbX6KVcktrOJ+zlbe51zSz9cla+GOVne4dxLTux27T0JU7VLlFHZZS9lhXCdzTWoKq4M2hqIsnQcUI3P+fqqtM13Jkh3GHbjXr/lqMFXJdCv4lxt5FZ6HKiApUBF+iKDE483Zcb9VeNZnPUqK5N2DxQexw1LiR4ddeQIPwqThtPQ0WuhalHo0uSRF3mGdbgBnb65emn+bIs9yzjCySx2+5B4rK1xa7z1N2SFZdDOeU3gkz4vNG0AtoCjQF6k+V7JnnklVQ8PhcmqPEPbGxr2FgbdEtNGzdo1zkrVKMVKKxySMF3Zhc0NDnOOpPQHb1AA+Uk2VprXiPc8JEOPhjnOewOysDS4865bdd1bK7lJpt4gu+C04Pin90YW6Frhr5f4FnLOTqq8PG5r3Y95LPBc1W0X5jWhuSVbsc71C8Ry7F3wciNmWw4N0Gt/5S4rU9+Uefct8s+pb4PEtdrt8UVnmRhKho1ScGwz3Z+4bfPSr9a3V98jSMWurLCOdkTaZkaBtWw/om2Uiyozy0aW46WUZI7N6F4Nff+i6qtO+5WU6Knnr7i+4J2fjb4pDnPTl79V2wrSPP1Ouss4XCOqY4AUNB0WuDzGjMOTBXBkoICAIAgPNsTDBgsZMyi8y/igcm5jqXOPLNsNSuScFGeWfUVWW6vTQUeNvDfw9Pkc7xfjnekMiAjYySyGgfURlz+Z1Is8iVnKeeD29NoFUnOzzNrv6ehIwWPIkcyYNJbQNbGwHAi+oNqnOTG2lSrUqm+f/ADB6B2dOaN4GsRADQeuuah029/ddtTbR8vr0o2Jv9Xf+Cm4r2Qjc4ysj/FGrSXOq/QlVdaOur2pao+HKXl+CKDj/ABFzBFBLHkzhxdpRIbybXU8/Jc0o4fKPS0FKscrIPOPz7FL2aMr5e6Y1huy4FuoA2JcPqrQWVatyzg6/addHhub4fbHTPwOixXZfP9TQuk+Z3RKfHdkY4xZLm3sA42fRvNUlJRXJ0UxlY8Qb/gpcbwWJhozvabrfb100VI2xfY7I6HUyWYvJXcR4Q/DzmJ1nMwlpP9TtqKSxPsdOglDw9zfcj4TA5nhrmEj/AD8yyi5RO/Vw09sO2fudvw3sI12CdM22y588TrP0DQNcNtTZuunols8nz+j1MdPqcPlPhlBxPhshu22djZr3/VYq5H0rsrlHqUmEYyKUidmYaUOW4u/b9FvGSayjmm3OWIvgze9rZRK1gDLIIGu/lyVsrGSkqZLyZLLFxumALfpDRV/e/wBVCZeUa4Qw+pWYXDeFpY52Y5rqqFGhv5WVOSsoZTbaJ3DcHNbu8a7x86Pi/wDHeuipOcU8NmMNRGK4Os4L2bjz95I+SMigI2VndrdvbRyj1o7rCd6ePxnn2X2Nvb39ehL47wCQktiAyEDR2+n+rquvTYcP9nn3XWOWd306HNTcB4k0/htYR0JH9lo6osmOrsXfPxQi4XxcCu6aPS/2co8CJp/+hZ7voS28E4q/6tPQD9yVKpiuxH9fZ2kl8ES4OxuMcbkLnerv22Wigl0RjK9y/VLJ0/Cuz0zFbBk7InV4HDPA1VkjCUkWLI1OTFyNgamSuTJQQEAQBAcn237JnF5ZYnZZmAt8ntOuV3SjsfM+2dle49b2Z7RelbjL9L+z9TnOE9h8U14MjYwL/wBV/oNVgqHk9i723TKOE39D0LD8PaAMzGEgV9I/ddSSPmZ3ybe1v6ktrQNAKUmDbfU+OZaEqWCg7TdlI8Z3Zc4tfGSWuAvfcEcxsqTrUjv0XtGemykspmrhHZCOCznc5x3NBvtoojUl3L6j2nO5YxwXD8GA05R4qNX1rRX28HJG3MlnoctxR5ZEQ1oZJ+ZxHivyPNcks+h7Wmip2pt5j2XY88j4JJiZg3MA0nxOdpXU1zPkstrnwfUz1tempbxz2R65iOEYeYDPEx9CgXNBr5XbhM+CVtkHw8CDgeHZ9EMbfRjR+ybEHqbJdZP6kTic2TwgAdKdl9ui4L4Pdk6KFF8t/bJzPafGsZEXAAPJa1ri1tgurxc9rv2XOq8yPW0lMpTSfT0y/wA5OUh4MMRIa01qzZLq0zHNzO66M88HtTtjRUlJZ/OnyLb/AIWdAzMQ3KBu4Gve9As5wljKZ5E9RC2flbI+KOGaMracapwFFpvQ6bKIqxoh7/8AJmjBRYVg5A/95Hs0futP7pWyfrL7l1h+PNDaDZn9AGFo/wDr/RV/p5vqc7VfqvuyZg+KTmxFhu7B55dStYaVIyk6u+X8eheYLDvdTn95fR1V9l0xrS6HNbasYSWC2hwfktDjckTI8KOitgzcjc2AKcFXI2NhCkruMxGpyRuMgFBU+oAgCAIAgCAIAgCAIAgCAIBSA1Pw7Du1p9QFGEXVkl0bMI8FE3VsbB6NATCLSusl1k/qb8oUmeT4WBBlkfE8OikFPYHeoVXFMurZLoyi4v2Jw00ZY1ojNghzRsQb2VHVF9Ds0vtCyixT6+4p8J2DxEZ8OKafWM//AKWX9P7z1rPbtNixKr7/APDoIuAPLMksgcOYDaB9leNOOrPLs1sHJuEcfM3Rdm4G7MHwAtPDRzvVzN7OCxD8oTYir1M2b2cOjH5Qp2oo7pG1uGaOSnCKuyRl3QTBG9mQYFJGWfaQg+oAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCA/9k=" alt="">
-                    </figure>
-                    <li><a href="https://onelittleproject.com/kiwi-recipes/">Kiwis</a> </li>
-                    <figure>
-                        <img width="350" src="https://media.mercola.com/assets/images/foodfacts/kiwi-nutrition-facts.jpg" alt="I am a kiwi">
-                    </figure>
-                    <li><a href="https://www.allrecipes.com/recipes/16966/fruits-and-vegetables/fruits/grapes/">Grapes</a> </li>
-                    <figure>
-                        <img width="350" src="https://i.ndtvimg.com/i/2015-09/grapes_240x180_61443376386.jpg" alt="We are grapes">
-                    </figure>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="https://www.bbcgoodfood.com/recipes/collection/pomegranate-recipes">Pomegranates</a> </li>
+                        <figure>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1r0Qz6GE8hiOEhW_QFu5fjo54yktGzCPijg&usqp=CAU" alt="">
+                        </figure>
+                    </div>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="https://onelittleproject.com/kiwi-recipes/">Kiwis</a> </li>
+                        <figure>
+                            <img src="https://media.mercola.com/assets/images/foodfacts/kiwi-nutrition-facts.jpg" alt="I am a kiwi">
+                        </figure>
+                    </div>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="https://www.allrecipes.com/recipes/16966/fruits-and-vegetables/fruits/grapes/">Grapes</a> </li>
+                        <figure>
+                            <img src="https://i.ndtvimg.com/i/2015-09/grapes_240x180_61443376386.jpg" alt="We are grapes">
+                        </figure>
+                    </div>
                 </ol>
-                <li>Vegetables</li>
+                <li class="food_group">Vegetables</li>
                 <ol>
-                    <li><a href="https://www.theendlessmeal.com/eggplant-parmesan-recipe/">Eggplants</a> </li>
-                    <figure>
-                        <img width="350" src="https://windsetfarms.com/wp-content/uploads/2016/10/WF_Website_Product-on-White-500x375_ADAGIO-300x225.jpg" alt="We are eggplants">
-                    </figure>
-                    <li><a href="https://www.countryliving.com/food-drinks/g2524/zucchini-recipes/">Zucchinis</a> </li>
-                    <figure>
-                        <img width="350" src="https://image.shutterstock.com/image-photo/fresh-green-zucchini-slice-isolated-260nw-1377052763.jpg" alt="I am a zucchini">
-                    </figure>
-                    <li><a href="">Spinachs</a> </li>
-                    <figure>
-                        <img width="350" src="https://images-na.ssl-images-amazon.com/images/I/61iHWsT3gvL._SX466_.jpg" alt="Spinacs like Popeye!">
-                    </figure>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="https://www.theendlessmeal.com/eggplant-parmesan-recipe/">Eggplants</a> </li>
+                        <figure>
+                            <img src="https://windsetfarms.com/wp-content/uploads/2016/10/WF_Website_Product-on-White-500x375_ADAGIO-300x225.jpg" alt="We are eggplants">
+                        </figure>
+                    </div>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="https://www.countryliving.com/food-drinks/g2524/zucchini-recipes/">Zucchinis</a> </li>
+                        <figure>
+                            <img src="https://image.shutterstock.com/image-photo/fresh-green-zucchini-slice-isolated-260nw-1377052763.jpg" alt="I am a zucchini">
+                        </figure>
+                    </div>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="">Spinachs</a> </li>
+                        <figure>
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/61iHWsT3gvL._SX466_.jpg" alt="Spinacs like Popeye!">
+                        </figure>
+                    </div>
                 </ol>
-                <li>Fish</li>
+                <li class="food_group">Fish</li>
                 <ol>
-                    <li> <a href="">Trouts</a></li>
-                    <figure>
-                        <img width="350" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWhdiDDsITBzCE1d5BO4YbJ-LxskPpLEzDeQ&usqp=CAU" alt="Trouts">
-                    </figure>
-                    <li><a href="">Salmon</a> </li>
-                    <figure>
-                        <img width="350" src="https://images.creativemarket.com/0.1.0/ps/5490457/300/200/m2/fpc/wm0/xyednbqx6nr6wqzmfpevb7ljghdwfdhbhunclu6m5fypzbwjvkwh8krxepijbmh4-.jpg?1543886614&s=e737b142971a2d425a4a0a13f88fa108" alt="Salmon">
-                    </figure>
-                    <li><a href="">Sardines</a> </li>
-                    <figure>
-                        <img width="350" src="https://lh3.googleusercontent.com/proxy/8A-7SkYtZsly5IclCyxWAAoQlbMeB-A1F4nKELQDzubxexayhhb9YAqT9Uuj42-ZNBRuadGSgb6YWzOJ0ZhxuSzLtqPRn-W0PVe-byAiWjOPJ4_4UbkYdX2x5iA27ubq2xYHKrxAV1qra68" alt="Sardines">
-                    </figure>
+                    <div class="aliment_container">
+                        <li class="aliment"> <a href="">Trouts</a></li>
+                        <figure>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWhdiDDsITBzCE1d5BO4YbJ-LxskPpLEzDeQ&usqp=CAU" alt="Trouts">
+                        </figure>
+                    </div>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="">Salmon</a> </li>
+                        <figure>
+                            <img src="https://images.creativemarket.com/0.1.0/ps/5490457/300/200/m2/fpc/wm0/xyednbqx6nr6wqzmfpevb7ljghdwfdhbhunclu6m5fypzbwjvkwh8krxepijbmh4-.jpg?1543886614&s=e737b142971a2d425a4a0a13f88fa108" alt="Salmon">
+                        </figure>
+                    </div>
+                    <div class="aliment_container">
+                        <li class="aliment"><a href="">Sardines</a> </li>
+                        <figure>
+                            <img src="https://www.seriouseats.com/2018/01/20170117-how-to-clean-sardines-vicky-wasik1-1500x1125.jpg" alt="Sardines">
+                        </figure>
+                    </div>
                 </ol>
             </ul>
         </main>
