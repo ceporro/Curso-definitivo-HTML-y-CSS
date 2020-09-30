@@ -1,0 +1,20 @@
+h3 + p {
+    color: red;
+}
+
+h2 ~ p {
+    color: blue;
+}
+
+.child-descendient {
+    border-top: 5px solid black;
+}
+
+div p {
+    background-color: aqua;
+}
+
+div > p {
+    background-color: blueviolet;
+}
+
